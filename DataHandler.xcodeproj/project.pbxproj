@@ -17,6 +17,7 @@
 		455E376324148CD5004BA934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376224148CD5004BA934 /* User.swift */; };
 		455E376524148D86004BA934 /* UserProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376424148D86004BA934 /* UserProfileStore.swift */; };
 		455E376724148F76004BA934 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376624148F76004BA934 /* StoreManager.swift */; };
+		455E376A241499BB004BA934 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E3769241499BB004BA934 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		455E376224148CD5004BA934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		455E376424148D86004BA934 /* UserProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileStore.swift; sourceTree = "<group>"; };
 		455E376624148F76004BA934 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		455E3769241499BB004BA934 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		455E3748241487B9004BA934 /* DataHandler */ = {
 			isa = PBXGroup;
 			children = (
+				455E3768241499A5004BA934 /* Views */,
 				455E375F24148B15004BA934 /* Store */,
 				455E375E24148B0B004BA934 /* Model */,
 				455E375D24148AFF004BA934 /* Screens */,
@@ -109,6 +112,14 @@
 				455E376624148F76004BA934 /* StoreManager.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		455E3768241499A5004BA934 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				455E3769241499BB004BA934 /* ButtonView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			files = (
 				455E374A241487B9004BA934 /* AppDelegate.swift in Sources */,
 				455E376724148F76004BA934 /* StoreManager.swift in Sources */,
+				455E376A241499BB004BA934 /* ButtonView.swift in Sources */,
 				455E374C241487B9004BA934 /* SceneDelegate.swift in Sources */,
 				455E376524148D86004BA934 /* UserProfileStore.swift in Sources */,
 				455E374E241487B9004BA934 /* ContentView.swift in Sources */,

@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct ProfileScreen: View {
+    @State private var nextUser: User = User()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("First name", text: $nextUser.firstName)
+            TextField("Last name", text: $nextUser.lastName)
+            Button(action: {
+                // save user to the User array
+            }, label: {
+                Text("Add User")
+            })
+        }
     }
 }
 

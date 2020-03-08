@@ -12,5 +12,4 @@ struct User : Identifiable {
     var id = UUID()
     var firstName: String = ""
     var lastName: String = ""
-    var age: Int = 0
 }

@@ -17,12 +17,12 @@ class UserProfileStore {
     
     func fetchUserProfiles() {
         users = [
-            User(firstName: "John", lastName: "Doe", age: 26),
-            User(firstName: "Jane", lastName: "Doe", age: 30),
-            User(firstName: "John", lastName: "Anderton", age: 38),
-            User(firstName: "John", lastName: "Loneguard", age: 25),
-            User(firstName: "John", lastName: "Smith", age: 42),
-            User(firstName: "Jane", lastName: "Smith", age: 40)
+            User(firstName: "John", lastName: "Doe"),
+            User(firstName: "Jane", lastName: "Doe"),
+            User(firstName: "John", lastName: "Anderton"),
+            User(firstName: "John", lastName: "Loneguard"),
+            User(firstName: "John", lastName: "Smith"),
+            User(firstName: "Jane", lastName: "Smith")
         ]
     }
 }

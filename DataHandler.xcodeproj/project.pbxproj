@@ -16,6 +16,7 @@
 		455E376124148C91004BA934 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376024148C91004BA934 /* ProfileScreen.swift */; };
 		455E376324148CD5004BA934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376224148CD5004BA934 /* User.swift */; };
 		455E376524148D86004BA934 /* UserProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376424148D86004BA934 /* UserProfileStore.swift */; };
+		455E376724148F76004BA934 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E376624148F76004BA934 /* StoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		455E376024148C91004BA934 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		455E376224148CD5004BA934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		455E376424148D86004BA934 /* UserProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileStore.swift; sourceTree = "<group>"; };
+		455E376624148F76004BA934 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				455E376424148D86004BA934 /* UserProfileStore.swift */,
+				455E376624148F76004BA934 /* StoreManager.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				455E374A241487B9004BA934 /* AppDelegate.swift in Sources */,
+				455E376724148F76004BA934 /* StoreManager.swift in Sources */,
 				455E374C241487B9004BA934 /* SceneDelegate.swift in Sources */,
 				455E376524148D86004BA934 /* UserProfileStore.swift in Sources */,
 				455E374E241487B9004BA934 /* ContentView.swift in Sources */,

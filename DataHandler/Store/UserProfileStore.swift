@@ -8,8 +8,13 @@
 
 import Foundation
 
-class UserProfileStore {
-    var users: [User] = []
+class UserProfileStore : ObservableObject {
+    var objectWillChange = ObjectWillChangePublisher()
+    var users: [User] = [] {
+        willSet {
+            objectWillChange.send()
+        }
+    }
     
     init() {
         fetchUserProfiles()

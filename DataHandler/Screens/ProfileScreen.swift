@@ -14,11 +14,7 @@ struct ProfileScreen: View {
         Form {
             TextField("First name", text: $nextUser.firstName)
             TextField("Last name", text: $nextUser.lastName)
-            Button(action: {
-                // save user to the User array
-            }, label: {
-                Text("Add User")
-            })
+            ButtonView()                
         }
     }
 }
